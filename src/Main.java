@@ -6,12 +6,15 @@ public class Main {
         pp.push(65);
         pp.push(87);
         pp.push(13);
-        System.out.println(pp.pop());
-        System.out.println(pp.pop());
-        System.out.println(pp.pop());
-        System.out.println(pp.pop());
-        System.out.println(pp.pop());
-
+        pp.push(12);
+        pp.push(12);
+        pp.pop();
+        pp.pop();
+        pp.pop();
+        pp.pop();
+        pp.pop();
+        pp.pop();
+        pp.pop();
 
 
     }

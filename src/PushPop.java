@@ -20,14 +20,22 @@ public class PushPop {
     }
 
     public void push(int data){
+        if(size-1 > top){
         top ++;
-        arr[top] = data;
+        arr[top] = data;}
+        else{
+            System.out.println("Stack is full");
+        }
 
     }
-    public int pop(){
+    public void pop(){
+        if (-1<top){
         int data = arr[top];
         top--;
-        return data;
+        System.out.println(data);}
+        else{
+            System.out.println("Stack is empty now...");
+        }
 
     }
 }
